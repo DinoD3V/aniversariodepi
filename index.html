@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Data no Pi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encontre sua data no número π</h1>
+        <form id="formulario">
+            <input type="number" id="dia" placeholder="Dia (DD)" min="1" max="31" required>
+            <input type="number" id="mes" placeholder="Mês (MM)" min="1" max="12" required>
+            <input type="number" id="ano" placeholder="Ano (YYYY)" min="1000" max="9999" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <p class="resultado" id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
